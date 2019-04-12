@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_with	tests		# perform "make test"
 #
 %define		pdir	Net
 %define		pnam	DNS-Resolver-Mock
@@ -8,7 +8,7 @@
 Summary:	Net::DNS::Resolver::Mock - Mock a DNS Resolver object for testing
 Name:		perl-Net-DNS-Resolver-Mock
 Version:	1.20171219
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
