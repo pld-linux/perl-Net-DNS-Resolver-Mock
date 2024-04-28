@@ -4,16 +4,15 @@
 #
 %define		pdir	Net
 %define		pnam	DNS-Resolver-Mock
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::DNS::Resolver::Mock - Mock a DNS Resolver object for testing
 Name:		perl-Net-DNS-Resolver-Mock
-Version:	1.20171219
-Release:	2
+Version:	1.20230216
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a63fbe22f39676df034e02486b3d3f83
+# Source0-md5:	d191b6b1eb40497024988f500fe65ed4
 URL:		https://metacpan.org/release/Net-DNS-Resolver-Mock/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
